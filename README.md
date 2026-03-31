@@ -9,10 +9,8 @@ Analyzing correlations between financial news sentiment and stock price movement
 - `reports/` — figures and final report
 
 ## Setup
-```bash
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+```cmd
+conda env create -f environment.yml
+conda activate nenv
+python -m ipykernel install --user --name nenv --display-name "Python (nenv)"
 ```
-```
-
