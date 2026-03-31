@@ -1,0 +1,26 @@
+name: nova-finance
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+    - plotly
+    - nltk
+    - textblob
+    - vaderSentiment
+    - yfinance
+    - ta
+    - python-dotenv
+    - pytest
+    - black
+    - transformers
+    - torch
